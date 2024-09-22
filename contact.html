@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Contact Us - Explore Malaysia</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallary</a></li>
+            <li><a href="favourites.html">Favourites</a></li>
+            <li><a id="active" href="contact.html">Contact</a></li>
+            
+        </ul>
+    </div>
+
+    <div class="contact-section">
+        <h2>We'd love to hear from you!</h2>
+        <p>
+            If you have any questions, feedback, or simply want to say hello, feel free to fill out the form below. We will get back to you as soon as possible.
+        </p>
+        <form action="#" method="POST" class="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-info">
+            <h3>Other Ways to Reach Us</h3>
+            <p>Email: <a href="mailto:contact@exploremalaysia.com">contact@exploremalaysia.com</a></p>
+            <p>Follow us on:</p>
+            <ul class="social-links">
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Explore Malaysia &copy; 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>
