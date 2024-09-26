@@ -58,6 +58,7 @@ div ul li a:hover {
     border-radius: 15px;
 }
 
+
 .intro h2, .info-malaysia h2, .about-page h2 {
     text-align: center;
     font-weight: 900;
@@ -114,6 +115,7 @@ div ul li a:hover {
     font-weight: 600;
     color: #8c0000;
 }
+
 @media (max-width: 768px) {
     .gallery {
         grid-template-columns: 1fr 1fr;
@@ -247,6 +249,10 @@ div ul li a:hover {
     color: #ff6347;
 }
 
+a:link {
+    color: black;
+}
+
 .social-links {
     list-style-type: none;
     padding: 0;
@@ -273,4 +279,337 @@ div ul li a:hover {
     color: #fff;
     font-size: 16px;
     border-top: 4px solid #ffd700;
+}
+@media only screen and (max-width: 900px){
+body
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+    #main
+    {
+        background: pink;
+        width: 100%;
+    }
+img
+    {
+        width: 90%;
+    }
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+h2{
+    font-size: 2em;
+}
+    #header
+    {
+        height: 10%;
+        background: gold;
+    }
+    #navigation
+    {
+        background: gray;
+        height: 100%;
+    }
+    .list
+    {
+        width: 100%;
+        display: block;
+        background: #d68910;
+        color: black;
+        margin-top: 10px;
+        font-size: 2.1em;
+    }
+    #content
+    {
+        font-size: 16px;
+    }
+    #footer
+    {
+        display: none;
+    }
+    body {
+        background-color: #fff5e1;
+        color: #8c0000;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        font-size: small;
+    }
+    
+    header {
+        background-color: #008080;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        margin: 0;
+        border-bottom: 4px solid #ffd700;
+    }
+    
+    div {
+        text-align: center;
+    }
+    
+    div ul {
+        list-style-type: none;
+        padding: 10px 0;
+        margin: 0;
+        background-color: #008080;
+        overflow: hidden;
+        display: block;
+        border-top: 3px solid #ffd700;
+        border-bottom: 3px solid #ffd700;
+    }
+    
+    div ul li {
+        display: inline;
+        margin-right: 40px;
+    }
+    
+    div ul li a {
+        text-decoration: none;
+        color: #ffd700;
+        font-size: 1.5em;
+        padding: 10px 20px;
+        position: relative;
+        transition: color 0.3s ease, background-color 0.3s ease;
+    }
+    
+    div ul li a:hover {
+        color: #fff;
+        background-color: #ff8c00;
+    }
+    
+    .intro, .info-malaysia, .about-page, .places-malaysia, .gallery-item{
+        background-color: rgba(255, 182, 193, 0.8);
+        color: #8c0000;
+        padding: 25px;
+        margin: 20px;
+        border-radius: 15px;
+    }
+    
+    
+    .intro h2, .info-malaysia h2, .about-page h2 {
+        text-align: center;
+        font-weight: 900;
+        font-size: 28px;
+        color: #8c0000;
+    }
+    
+    .info-malaysia h3, .about-page h3 {
+        font-size: 22px;
+        font-weight: 800;
+        color: #ff4500;
+        text-decoration: underline;
+    }
+    
+    .intro p, .info-malaysia p, .about-page p {
+        font-weight: 700;
+        text-align: left;
+        font-size: 16px;
+        color: #8c0000;
+        line-height: 1.8;
+    }
+    .about-page ul strong{
+        color: black;
+        font-weight: 900;
+        font-size: 15px;
+    }
+    .about-page ul{
+        color: black;
+        font-weight: 900;
+        font-size: 12px; 
+    }
+    .gallery , .favourites-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+    .gallery h3{
+        font-size: 20px;
+    }
+    .gallery-item {
+        text-align: center;
+    }
+    .gallery-item img {
+        width: 100%;
+        max-width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+    }
+    .gallery-item p {
+        font-size: 14px;
+        font-weight: 600;
+        color: #8c0000;
+    }
+    @media (max-width: 768px) {
+        .gallery {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .gallery {
+            grid-template-columns: 1fr; 
+        }
+    }
+    .gallery-item img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+    .favourites-section {
+        background-color: rgba(255, 182, 193, 0.8);
+        color: #8c0000;
+        padding: 25px;
+        margin: 20px;
+        border-radius: 15px;
+        grid-template-columns: 1fr; 
+
+    }
+    .favourites-section h2{
+        font-size: 59px;
+        font-weight: 800;
+        font-style:oblique;
+    }
+    .favourite-item {
+        margin-bottom: 30px;
+        text-align: left;
+        padding: 25px;
+        background-color: rgba(255, 105, 180, 0.8);
+        border: 3px solid #ffd700;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .favourite-item h3 {
+        font-size: 26px;
+        font-weight: 800;
+        color: #ff4500;
+        text-decoration: underline;
+    }
+    
+    .favourite-item p {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.8;
+        color: #8c0000;
+    }
+    
+    .contact-section {
+        background-color: rgba(255, 182, 193, 0.8);
+        color: #8c0000;
+        padding: 25px;
+        margin: 20px;
+        border-radius: 15px;
+        text-align: left;
+    }
+    
+    .contact-section h2, .contact-section h3 {
+        font-size: 25px;
+        font-weight: 900;
+        color: #8c0000;
+        text-align: center;
+    }
+    
+    .contact-section p {
+        font-size: 16px;
+        font-weight: 700;
+        color: #8c0000;
+        line-height: 1.6;
+        text-align: center;
+    }
+    
+    .contact-form {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .contact-form label {
+        font-size: 16px;
+        color: #8c0000;
+        font-weight: 700;
+    }
+    
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ff4500;
+        border-radius: 10px;
+        background-color: #ffe4e1;
+        color: #8c0000;
+    }
+    
+    .contact-form button {
+        padding: 10px 20px;
+        font-size: 18px;
+        color: #fff;
+        background-color: #ff4500;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .contact-form button:hover {
+        background-color: #ff6347;
+    }
+    
+    .contact-info {
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .contact-info p {
+        margin-bottom: 5px;
+    }
+    
+    .contact-info a {
+        color: #ff4500;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    
+    .contact-info a:hover {
+        color: #ff6347;
+    }
+    
+    a:link {
+        color: black;
+    }
+    
+    .social-links {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .social-links li a {
+        font-size: 18px;
+        color: #ff4500;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .social-links li a:hover {
+        color: #ff6347;
+    }
+    
+    .footer {
+        text-align: center;
+        padding: 15px 0;
+        background-color: #008080;
+        color: #fff;
+        font-size: 16px;
+        border-top: 4px solid #ffd700;
+    }
 }
